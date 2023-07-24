@@ -1,0 +1,56 @@
+.header-bar {
+  margin: 0 auto;
+  height: 60px;
+  width: 1000px;
+  background: whitesmoke;
+  box-shadow: 0px 8px 11px -2px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-around;
+}
+
+.auth {
+  margin: 50px auto;
+  width: 400px;
+  height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 29px -2px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+}
+.auth .loginForm {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.auth .loginForm input {
+  height: 30px;
+}
+.auth .loginForm button {
+  width: 300px;
+  height: 40px;
+}
+.auth .register .reg-btn {
+  width: 300px;
+  height: 40px;
+}
+
+.reg-conteiner {
+  margin: 50px auto;
+  width: 400px;
+  height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 29px -2px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+}
+.reg-conteiner .registerForm {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}/*# sourceMappingURL=style.css.map */
